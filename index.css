@@ -1,9 +1,15 @@
 body {
-    padding: 1rem;
     max-width: 800px;
+    padding-bottom: 1em;
     margin: auto;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    margin-top: 1rem;
+    background-color: #f2f1ef;
+    border-radius: 10px;
 }
 
 header {
@@ -14,9 +20,6 @@ header {
 
     padding-left: 3em;
     padding-right: 3em;
-
-    background-color: #f2f1ef;
-    border-radius: 10px;
 }
 
 @media (max-width: 750px) {
@@ -42,7 +45,16 @@ figcaption {
 #img-div {
     margin-top: 1em;
     padding: 1em;
+}
 
-    background-color: #f2f1ef;
-    border-radius: 10px;
+#tribute-info {
+    padding: 1em;
+}
+
+#tribute-info > h3 {
+    text-align: center;
+}
+
+#tribute-info > ul > li:not(:last-child) { 
+    padding-bottom: 1em;
 }
