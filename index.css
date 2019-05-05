@@ -12,6 +12,12 @@ body {
     border-radius: 10px;
 }
 
+@media (max-width: 750px) {
+    .container {
+        border-radius: 0;
+    }
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -57,4 +63,25 @@ figcaption {
 
 #tribute-info > ul > li:not(:last-child) { 
     padding-bottom: 1em;
+}
+
+blockquote {
+    font-size: 20px;
+    font-style: italic;
+
+    padding: 0.5em;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+blockquote > p:last-child {
+    text-align: end;
+}
+
+#read-more {
+    padding: 1em;
+
+    text-align: center;
+    font-size: 24px;
 }
